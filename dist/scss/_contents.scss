@@ -1,0 +1,113 @@
+.sub_title_area {
+  padding: 190px 40px 120px;
+  h2 {
+    font-size: 3.75rem;
+    font-weight: 700;
+    letter-spacing: 0.02rem;
+  }
+  p {
+    font-size: 1.1875rem;
+    line-height: 30px;
+    margin-top: 16px;
+  }
+}
+.depth_area {
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 85px;
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  background: #fff;
+}
+.depth_area ul {
+  overflow-x: auto;
+  overflow-y: hidden;
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+  li {
+    display: inline-block;
+    vertical-align: middle;
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 85px;
+      font-size: 1.1875rem;
+      margin: 0 20px;
+      padding: 0 20px;
+    }
+  }
+}
+.depth_area ul li a.on {
+  color: #e50013;
+  border-bottom: 4px solid #e50013;
+}
+.banner_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+.banner_area .text_area .tit {
+  color: #fff;
+  font-size: 2.5rem;
+  // letter-spacing: -0.3rem;
+}
+
+.contents_area {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 80px 40px 0;
+}
+.contents_area .con_title_g {
+  text-align: center;
+}
+.contents_area .con_title_g .title1 {
+  font-size: 2.375rem;
+  line-height: 50px;
+  letter-spacing: -0.06rem;
+}
+.contents_area .con_title_g .title2 {
+  font-size: 1.75rem;
+  line-height: 35px;
+  letter-spacing: -0.03rem;
+}
+.contents_area .section_1 {
+  position: relative;
+  margin: 95px 0 0 0;
+}
+.contents_area .section_1 .txt1 {
+  margin-top: 5px;
+  color: #666666;
+}
+.section_1 .con_title_box {
+  z-index: 10;
+  position: relative;
+  width: 997px;
+  padding: 40px 0;
+  margin: -38px auto 0;
+  background: #fff;
+}
+.contents_area .section_2 {
+  position: relative;
+  left: 50%;
+  width: 997px;
+  margin: 40px 0 0 -499px;
+  padding: 100px 0;
+  background: #f7f7f7;
+}
+.contents_area .section_3 {
+  position: relative;
+  left: 50%;
+  width: 1200px;
+  margin: 75px 0 0 -600px;
+}
+.contents_area .section_3 .txt1 {
+  margin: 10px 0 95px;
+}
